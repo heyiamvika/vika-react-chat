@@ -34,12 +34,9 @@ const Sidebar = ({ classes, chats }) => (
         margin="normal"
         placeholder="Search chats..."
       />
-    </div>
-    
+    </div>  
     <Divider />
-    
     <ChatList chats={chats} />
-
     <BottomNavigation showLabels>
       <BottomNavigationAction label="My Chats" icon={<RestoreIcon />} />
       <BottomNavigationAction label="Explore" icon={<ExploreIcon />} />

@@ -17,7 +17,7 @@ const styles = theme => ({
   },
 });
 
-const MessageInput = () => ({
+class MessageInput extends React.Component {
   render() {  
     const { classes } = this.props;
     
@@ -29,6 +29,6 @@ const MessageInput = () => ({
       </div>
     );
   }
-});
+};
 
 export default withStyles(styles)(MessageInput);
